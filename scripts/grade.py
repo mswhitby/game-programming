@@ -41,7 +41,7 @@ def main():
             for lesson in unit['lessons']:
                 ex=lesson['exercise'];ok,feedback=evaluate(ex['starter'],ex['examples'])
                 assert not ok and 'NotImplementedException' in feedback, ex['id']+': '+feedback
-        print('Checker verified: correct, incorrect, uncompilable, and all eight starter/test contracts.');return
+        print('Checker verified: correct, incorrect, uncompilable, and all published starter/test contracts.');return
     course=json.loads((Path(__file__).resolve().parents[1]/'course.json').read_text());rows=[]
     for unit in course['units']:
         for lesson in unit['lessons']:

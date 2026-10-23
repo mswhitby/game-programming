@@ -2,7 +2,7 @@ using System;
 
 public class Program
 {
-    public static float Solution(float x, float distance)
+    public static float MoveAlongXAxis(float x, float distance)
     {
         // Replace this line with your game logic.
         throw new NotImplementedException();
@@ -10,6 +10,6 @@ public class Program
 
     public static void Main()
     {
-        Console.WriteLine(Solution(2f, 1.5f));
+        Console.WriteLine(MoveAlongXAxis(2f, 1.5f));
     }
 }

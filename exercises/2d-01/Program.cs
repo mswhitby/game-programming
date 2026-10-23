@@ -2,7 +2,7 @@ using System;
 
 public class Program
 {
-    public static float Solution(float x, float offset)
+    public static float OffsetSpriteX(float x, float offset)
     {
         // Replace this line with your game logic.
         throw new NotImplementedException();
@@ -10,6 +10,6 @@ public class Program
 
     public static void Main()
     {
-        Console.WriteLine(Solution(3f, 2f));
+        Console.WriteLine(OffsetSpriteX(3f, 2f));
     }
 }

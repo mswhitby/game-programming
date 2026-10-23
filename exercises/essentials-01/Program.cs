@@ -2,7 +2,7 @@ using System;
 
 public class Program
 {
-    public static string Solution()
+    public static string GetArenaName()
     {
         // Replace this line with your game logic.
         throw new NotImplementedException();
@@ -10,6 +10,6 @@ public class Program
 
     public static void Main()
     {
-        Console.WriteLine(Solution());
+        Console.WriteLine(GetArenaName());
     }
 }

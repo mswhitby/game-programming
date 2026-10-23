@@ -8,9 +8,9 @@ Six Unity Essentials companion units follow the official educator outline: Edito
 Eleven original lessons and C# exercises, seven knowledge checkpoints (22 questions), and hands-on Unity tasks. The course overview includes the official tutorial outline. These classroom companions do not replace every Unity tutorial or award Unity badges.
 
 ## Student workflow
-Read the lesson in the Playground, follow its Unity Learn link, complete the Unity task, and edit the C# practice starter. Console exercises use no UnityEngine APIs. Use Run code in the Playground, or run the full Program.cs in OnlineGDB’s C# compiler or a local .NET console project. `Main` prints an example; `Solution` returns the answer. Keep those separate.
+Read the lesson in the Playground, follow its Unity Learn link, complete the Unity task, and edit the C# practice starter. Console exercises use no UnityEngine APIs. Use Run code in the Playground, or run the full Program.cs in OnlineGDB’s C# compiler or a local .NET console project. `Main` prints an example; a descriptive method such as `CalculateScore` returns the answer. Keep those separate.
 
-Fork this repository, edit `exercises/<lesson-id>/Program.cs`, and open a pull request. The practice check compiles each submitted program and tests published examples. Browser quizzes and self-reported Unity practice are formative practice, not official grades.
+Use the in-app Run and Check controls for practice. The optional repository workflow also compiles submitted programs against published examples; it reads the function name from each exercise contract. Browser quizzes and self-reported Unity practice are formative practice, not official grades.
 
 ## Teacher/developer workflow
 `course.json` is the content contract. `exercises/` contains matching editable starters. `scripts/grade.py` runs the same published cases with .NET 10 and writes a report. In PRs the checker is read from the base branch; student code runs on an ephemeral, read-only Actions job without secrets. It is not a hosted code-execution API.
