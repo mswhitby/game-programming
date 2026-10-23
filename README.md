@@ -19,3 +19,7 @@ The Playground imports `course.json` into its static build. Content changes appe
 
 ## Attribution and scope
 This is original companion curriculum, not copied Unity quiz text. Links and alignment were checked on 2026-10-23. Unity UI and input APIs vary by version; follow the course project’s selected version. Essentials units follow the Unity 6 educator Common Cartridge dated 2025-10-23, retrieved from the official pathway page on 2026-10-23. The supplied UUID outline URL returned 404; the official educator download supplies the mission order. Junior Programmer begins Player Control/Basic Gameplay; neither companion claims completion of the official pathway.
+
+## Lesson authoring
+
+Edit the ordinary Markdown files in `lessons/`. They render with normal GitHub previews and keep inline code, bold vocabulary, lists, and fenced C# examples. The body can use whatever structure best teaches the lesson. `course.json` contains navigation, Unity activities, quizzes, and exercise checks; it no longer contains lesson prose. Ask before changing this authoring format.
