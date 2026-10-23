@@ -36,7 +36,12 @@ def main():
         assert evaluate('public class Program {public static int Solution(){return 3;}}',[{'call':'Solution()','expected':'3'}])[0]
         assert not evaluate('public class Program {public static int Solution(){return 4;}}',[{'call':'Solution()','expected':'3'}])[0]
         assert not evaluate('this is not C#',[{'call':'Solution()','expected':'3'}])[0]
-        print('Checker verified: correct, incorrect, and uncompilable programs.');return
+        course=json.loads((Path(__file__).resolve().parents[1]/'course.json').read_text())
+        for unit in course['units']:
+            for lesson in unit['lessons']:
+                ex=lesson['exercise'];ok,feedback=evaluate(ex['starter'],ex['examples'])
+                assert not ok and 'NotImplementedException' in feedback, ex['id']+': '+feedback
+        print('Checker verified: correct, incorrect, uncompilable, and all eight starter/test contracts.');return
     course=json.loads((Path(__file__).resolve().parents[1]/'course.json').read_text());rows=[]
     for unit in course['units']:
         for lesson in unit['lessons']:
