@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Essentials01PracticePractice
 {
     public static string GetArenaName()
     {

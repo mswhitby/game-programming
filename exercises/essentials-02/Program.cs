@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Essentials02PracticePractice
 {
     public static float MoveAlongXAxis(float x, float distance)
     {

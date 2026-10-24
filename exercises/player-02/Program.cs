@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Player02PracticePractice
 {
     public static float ClampPlayerPosition(float x, float min, float max)
     {

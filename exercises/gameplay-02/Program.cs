@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Gameplay02PracticePractice
 {
     public static int CalculateRemainingLives(int lives, bool hit)
     {

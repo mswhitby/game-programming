@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Gameplay01PracticePractice
 {
     public static bool CanFireProjectile(bool pressed, bool gameOver, float remaining)
     {

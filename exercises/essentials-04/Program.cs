@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Essentials04PracticePractice
 {
     public static float CalculateTravelDistance(float speed, float elapsedSeconds)
     {

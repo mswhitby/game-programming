@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Essentials03PracticePractice
 {
     public static int CalculateScore(int score, int coins, int pointsPerCoin)
     {

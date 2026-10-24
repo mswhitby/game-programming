@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class 2D01PracticePractice
 {
     public static float OffsetSpriteX(float x, float offset)
     {

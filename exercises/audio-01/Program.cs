@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class Audio01PracticePractice
 {
     public static float ScaleVolume(float volume, float gain)
     {
