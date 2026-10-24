@@ -1,6 +1,6 @@
 using System;
 
-public class Audio01PracticePractice
+public class VolumeScaling
 {
     public static float ScaleVolume(float volume, float gain)
     {

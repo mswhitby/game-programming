@@ -1,6 +1,6 @@
 using System;
 
-public class Essentials02PracticePractice
+public class MarkerMovement
 {
     public static float MoveAlongXAxis(float x, float distance)
     {

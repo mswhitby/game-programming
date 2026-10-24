@@ -1,6 +1,6 @@
 using System;
 
-public class 2D01PracticePractice
+public class SpritePositioning
 {
     public static float OffsetSpriteX(float x, float offset)
     {

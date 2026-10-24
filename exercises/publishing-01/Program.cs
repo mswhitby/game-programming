@@ -1,6 +1,6 @@
 using System;
 
-public class Publishing01PracticePractice
+public class ProjectLabeling
 {
     public static string CreateProjectLabel(string title)
     {

@@ -1,6 +1,6 @@
 using System;
 
-public class Player01PracticePractice
+public class PlayerMovement
 {
     public static float CalculateHorizontalPosition(float x, float input, float speed, float elapsedSeconds)
     {

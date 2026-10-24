@@ -1,6 +1,6 @@
 using System;
 
-public class Essentials03PracticePractice
+public class PickupScoring
 {
     public static int CalculateScore(int score, int coins, int pointsPerCoin)
     {
